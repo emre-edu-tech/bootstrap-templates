@@ -1,0 +1,33 @@
+body{
+	background: red;
+}
+
+/* Bootstrap Breakpoints */
+/* Extra small device is the DEFAULT DEVICE */
+/* Small devices */
+@media (min-width: 576px) {
+	body{
+		background: orange;
+	}
+}
+
+/* Medium devices */
+@media (min-width: 768px) {
+	body{
+		background: yellow;
+	}	
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+	body{
+		background: green;
+	}
+}
+
+/* Extra large devices */
+@media (min-width: 1200px) {
+	body{
+		background: blue;
+	}
+}

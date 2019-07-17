@@ -1,0 +1,10 @@
+#blue{
+	background: #2980b9;
+}
+
+#jumbotron-with-image{
+	background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url('../images/hello-lightbulb-XC3fq-ffXRI-unsplash.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
