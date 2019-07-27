@@ -8,18 +8,39 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
     <title>Inline Forms</title>
   </head>
   <body>
       <div class="container">
         <h3 class="text-center">Inline Forms</h3>
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text">
-                    
-                </span>
-            </div>
-        </div>
+
+        <form action="#" class="form-inline">
+
+          <div class="input-group mr-sm-3">
+              <div class="input-group-prepend">
+                  <span class="input-group-text">
+                      <i class="fas fa-user"></i>
+                  </span>
+              </div>
+              <input type="text" class="form-control" name="username" id="username" placeholder="username">
+          </div>
+          
+          <div class="input-group mr-sm-3">
+              <div class="input-group-prepend">
+                  <span class="input-group-text">
+                      <i class="fas fa-key"></i>
+                  </span>
+              </div>
+              <input type="password" class="form-control" name="password" id="password" placeholder="password">
+          </div>
+          
+          <input type="submit" value="Submit" class="btn btn-primary">
+
+        </form>
+
       </div>
 
     <!-- Optional JavaScript -->
